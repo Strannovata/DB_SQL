@@ -42,11 +42,11 @@ SELECT firstname, lastname, salary
 FROM staff 
 ORDER BY salary ASC;
 
-# 2. Выведите 5 максимальных заработных плат (saraly)
+# 2. Выведите 3 минимальных заработных плат (saraly)
 SELECT firstname, lastname, salary
 FROM staff 
-ORDER BY salary DESC
-LIMIT 5;
+ORDER BY salary ASC
+LIMIT 3;
 
 # 3. Посчитайте суммарную зарплату (salary) по каждой специальности (роst)
 SELECT 
